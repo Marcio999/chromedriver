@@ -216,7 +216,7 @@ function getPageCache(opt_doc, opt_w3c) {
   var doc = opt_doc || document;
   var w3c = opt_w3c || false;
   // |key| is a long random string, unlikely to conflict with anything else.
-  var key = '$cdc_asdjflasutopfhvcZLmcfl_';
+  var key = 'abc_';
   if (w3c) {
     if (!(key in doc))
       doc[key] = new CacheWithUUID();
